@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/NYC_Block_6.unity
+  isLoaded: 1
+  isActive: 1
