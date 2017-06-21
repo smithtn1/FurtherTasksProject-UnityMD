@@ -33,7 +33,7 @@ public class Patrol : MonoBehaviour {
 
 		if (destPoint != 0) { //&& dist > 1.0f) { 
 			//Debug.Log (waypoints.Count);
-			if (agent.remainingDistance < 10.1f)
+			if (agent.remainingDistance < 3.0f)
 				GotoNextPoint ();
 		} else {
 			agent.destination = gameObject.transform.localPosition;
