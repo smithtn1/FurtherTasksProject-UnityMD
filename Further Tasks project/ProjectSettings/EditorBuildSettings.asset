@@ -6,11 +6,11 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/MDMainMenu.unity
+    path: Assets/Scenes/MDMainMenu.unity
     guid: 286fdfccae520fa4abe6933d0052338e
   - enabled: 1
-    path: Assets/Test File (Road, Cars, Triggers, and Audio).unity
+    path: Assets/Scenes/Test File (Road, Cars, Triggers, and Audio).unity
     guid: c02713d5af2d3dd438ae8489ce43908d
   - enabled: 1
-    path: Assets/NYC_Block_6.unity
+    path: Assets/Scenes/NYC_Block_6.unity
     guid: 3de8f2afe46df40468732477062ca76d
