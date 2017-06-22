@@ -69,6 +69,7 @@ public class TrafficController : MonoBehaviour {
 		Transform SecondWayPoint = GameObject.Find(NavPathName).transform.GetChild(1); 
 		Vector3 relativePos = SecondWayPoint.position - FirstWayPoint.position;
 		Instantiate (Enemy, FirstWayPoint.position, Quaternion.LookRotation(relativePos)); 
+		Debug.Log (SecondWayPoint.position);
 
 		if (spawnPointIndex == spawnPoints.Count)
 			ResetValues (); // stop spawning & reset vals
